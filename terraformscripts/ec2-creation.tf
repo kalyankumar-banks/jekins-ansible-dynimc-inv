@@ -8,6 +8,6 @@ resource "aws_instance" "AWSEC2Instance"{
    key_name = "devops2024"
    security_groups = ["launch-wizard-1"]
    tags={
-   Name = "terraform"
+   Name = "terraformserver"
    }
 }
